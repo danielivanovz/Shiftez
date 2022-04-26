@@ -9,7 +9,8 @@ you choose one of those through the Pickers. Then insert the `arn` of the virtua
 and you're good to go; of course, OTP is required as well.
 
 <div align="center">
-<img width=400 src="https://github.com/danielivanovz/Shiftez/blob/main/Shiftez.png?raw=true", alt="screenshot"/>
+<img width=400 src="https://user-images.githubusercontent.com/15111096/165270288-fe4b032c-84f4-423f-980e-816061ef92c0.png")
+", alt="screenshot"/>
 </div>
 
 ## Requirments
