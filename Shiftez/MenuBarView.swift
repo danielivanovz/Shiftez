@@ -10,8 +10,9 @@ import SwiftUI
 struct MenuBarView: View {
     var body: some View {
         HStack(spacing: 4) {
-            Image("menu-bar-icon")
-        }
+            Image(systemName: "greaterthan.circle.fill")
+            
+        }.padding(.horizontal, 8)
     }
 }
 

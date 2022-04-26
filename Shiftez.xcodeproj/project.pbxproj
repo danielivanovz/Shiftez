@@ -8,18 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		DCCC39A328174B7700FFAA14 /* ShiftezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39A228174B7700FFAA14 /* ShiftezApp.swift */; };
-		DCCC39A528174B7700FFAA14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39A428174B7700FFAA14 /* ContentView.swift */; };
 		DCCC39A728174B7900FFAA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC39A628174B7900FFAA14 /* Assets.xcassets */; };
 		DCCC39AA28174B7900FFAA14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCC39A928174B7900FFAA14 /* Preview Assets.xcassets */; };
+		DCCC39B328174CC100FFAA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39B228174CC100FFAA14 /* AppDelegate.swift */; };
+		DCCC39B7281752CD00FFAA14 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39B6281752CD00FFAA14 /* MenuBarView.swift */; };
+		DCCC39B92817588300FFAA14 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39B82817588300FFAA14 /* PopoverView.swift */; };
+		DCCC39BD2817673B00FFAA14 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39BC2817673B00FFAA14 /* Helpers.swift */; };
+		DCCC39C02817676F00FFAA14 /* Exec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39BF2817676F00FFAA14 /* Exec.swift */; };
+		DCCC39C3281767C300FFAA14 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC39C2281767C300FFAA14 /* Types.swift */; };
+		DCCC39C62817788000FFAA14 /* terminal_16406.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCC39C52817788000FFAA14 /* terminal_16406.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCCC399F28174B7700FFAA14 /* Shiftez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiftez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCC39A228174B7700FFAA14 /* ShiftezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftezApp.swift; sourceTree = "<group>"; };
-		DCCC39A428174B7700FFAA14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCCC39A628174B7900FFAA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCC39A928174B7900FFAA14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCCC39AB28174B7900FFAA14 /* Shiftez.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shiftez.entitlements; sourceTree = "<group>"; };
+		DCCC39B128174BE100FFAA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCCC39B228174CC100FFAA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCC39B6281752CD00FFAA14 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		DCCC39B82817588300FFAA14 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		DCCC39BC2817673B00FFAA14 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DCCC39BF2817676F00FFAA14 /* Exec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exec.swift; sourceTree = "<group>"; };
+		DCCC39C2281767C300FFAA14 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		DCCC39C52817788000FFAA14 /* terminal_16406.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terminal_16406.png; path = ../../../../Downloads/terminal_16406.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +65,18 @@
 		DCCC39A128174B7700FFAA14 /* Shiftez */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC39C1281767B200FFAA14 /* CoreData */,
+				DCCC39B128174BE100FFAA14 /* Info.plist */,
 				DCCC39A228174B7700FFAA14 /* ShiftezApp.swift */,
-				DCCC39A428174B7700FFAA14 /* ContentView.swift */,
 				DCCC39A628174B7900FFAA14 /* Assets.xcassets */,
 				DCCC39AB28174B7900FFAA14 /* Shiftez.entitlements */,
 				DCCC39A828174B7900FFAA14 /* Preview Content */,
+				DCCC39B228174CC100FFAA14 /* AppDelegate.swift */,
+				DCCC39B6281752CD00FFAA14 /* MenuBarView.swift */,
+				DCCC39B82817588300FFAA14 /* PopoverView.swift */,
+				DCCC39BC2817673B00FFAA14 /* Helpers.swift */,
+				DCCC39BF2817676F00FFAA14 /* Exec.swift */,
+				DCCC39C52817788000FFAA14 /* terminal_16406.png */,
 			);
 			path = Shiftez;
 			sourceTree = "<group>";
@@ -67,6 +87,14 @@
 				DCCC39A928174B7900FFAA14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCCC39C1281767B200FFAA14 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC39C2281767C300FFAA14 /* Types.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCC39C62817788000FFAA14 /* terminal_16406.png in Resources */,
 				DCCC39AA28174B7900FFAA14 /* Preview Assets.xcassets in Resources */,
 				DCCC39A728174B7900FFAA14 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCC39A528174B7700FFAA14 /* ContentView.swift in Sources */,
+				DCCC39B7281752CD00FFAA14 /* MenuBarView.swift in Sources */,
+				DCCC39B328174CC100FFAA14 /* AppDelegate.swift in Sources */,
+				DCCC39C02817676F00FFAA14 /* Exec.swift in Sources */,
+				DCCC39C3281767C300FFAA14 /* Types.swift in Sources */,
+				DCCC39B92817588300FFAA14 /* PopoverView.swift in Sources */,
+				DCCC39BD2817673B00FFAA14 /* Helpers.swift in Sources */,
 				DCCC39A328174B7700FFAA14 /* ShiftezApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,12 +300,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Shiftez/Shiftez.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shiftez/Preview Content\"";
+				DEVELOPMENT_TEAM = 7657TKA628;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shiftez/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,12 +331,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Shiftez/Shiftez.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shiftez/Preview Content\"";
+				DEVELOPMENT_TEAM = 7657TKA628;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shiftez/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
