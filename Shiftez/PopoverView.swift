@@ -23,6 +23,12 @@ struct PopoverView: View {
         var data = getKeys(otp: &otp, selectedProfile: &selectedProfile, arn: &arn)
         
         initConfigurations(data: &data, profile: &selectedIAMProfile)
+
+        let alert = NSAlert()
+        alert.messageText = "AWS credentials has been configured"
+        alert.addButton(withTitle: "OK")
+        alert.alertStyle = .informational
+        alert.runModal()
     }
     var body: some View {
         VStack(spacing: 16) {
