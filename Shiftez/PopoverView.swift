@@ -19,13 +19,20 @@ struct PopoverView: View {
     
     @State var dir: String = ""
     
+    func configureAccount() -> Void {
+        var data = getKeys(otp: &otp, selectedProfile: &selectedProfile, arn: &arn)
+        
+        initConfigurations(data: &data, profile: &selectedIAMProfile)
+    }
     var body: some View {
         VStack(spacing: 16) {
             Text("ShiftEz").font(.largeTitle.bold()).padding(.top)
             Divider()
             
             Form {
-                TextField("OTP", text: $otp)
+                TextField("OTP", text: $otp).onSubmit {
+                    configureAccount()
+                 }
                 TextField("ARN", text: $arn)
                 Divider()
                 Picker("STS Profile", selection: $selectedProfile) {
@@ -51,10 +58,7 @@ struct PopoverView: View {
                 }
                 Spacer()
                 Button(action: {
-                    var data = getKeys(otp: &otp, selectedProfile: &selectedProfile, arn: &arn)
-                    
-                    initConfigurations(data: &data, profile: &selectedIAMProfile)
-                    
+                    configureAccount()
                 })  {
                     HStack {
                         Image(systemName: "terminal")
