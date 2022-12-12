@@ -32,7 +32,7 @@
 		DCCC39BC2817673B00FFAA14 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		DCCC39BF2817676F00FFAA14 /* Exec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exec.swift; sourceTree = "<group>"; };
 		DCCC39C2281767C300FFAA14 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
-		DCCC39C52817788000FFAA14 /* terminal_16406.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terminal_16406.png; path = ../../../../Downloads/terminal_16406.png; sourceTree = "<group>"; };
+		DCCC39C52817788000FFAA14 /* terminal_16406.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = terminal_16406.png; path = Assets.xcassets/AppIcon.appiconset/terminal_16406.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
